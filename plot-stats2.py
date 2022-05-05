@@ -7,7 +7,7 @@ import csv
 x = []
 y = []
   
-with open('debug1.log','r') as csvfile:
+with open('trend.log','r') as csvfile:
     plots = csv.reader(csvfile, delimiter = ',')
       
     for row in plots:
