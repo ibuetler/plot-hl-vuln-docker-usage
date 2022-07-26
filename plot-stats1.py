@@ -18,7 +18,7 @@ app.layout = html.Div([
     Output("graph", "figure"), 
     Input("button", "n_clicks"))
 def display_graph(n_clicks):
-    df = pd.read_csv('debug1.log')
+    df = pd.read_csv('trend.log')
 
     if n_clicks % 2 == 0:
         x, y = 'date', 'usage'
