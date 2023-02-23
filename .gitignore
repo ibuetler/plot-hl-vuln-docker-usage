@@ -1,3 +1,10 @@
 trend.log
 docker-auslastung.log
 source-log
+bin/
+etc/
+lib/
+lib64
+pyvenv.cfg
+share/
+
